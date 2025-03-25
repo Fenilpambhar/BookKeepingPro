@@ -23,7 +23,7 @@ body {
 }
 
 /* Navigation */
-.navbar  {
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
@@ -35,15 +35,18 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.navbar .logo {
-    font-size: 24px;
-    font-weight: bold;
+/* Hamburger Menu (Mobile) */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
 }
 
+/* Desktop Navigation */
 .navbar ul {
     list-style: none;
     display: flex;
-    padding-right: 30px;
+    padding-right: 20px;
 }
 
 .navbar ul li {
@@ -107,17 +110,11 @@ body {
     margin-bottom: 20px;
 }
 
+/* Service Grid (Desktop) */
 .service-grid {
     display: flex;
     justify-content: center;
     gap: 20px;
-}
-
-.service-item {
-    background: #f4f4f4;
-    padding: 20px;
-    border-radius: 10px;
-    width: 250px;
 }
 
 /* Contact Section */
@@ -135,4 +132,44 @@ body {
 .contact p {
     font-size: 1.2em;
     margin-bottom: 20px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    /* Show Hamburger Menu */
+    .menu-toggle {
+        display: block;
+    }
+
+    .navbar nav {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .nav-links.show {
+        display: block;
+    }
+
+    /* Stack Services Vertically */
+    .service-grid {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
