@@ -16,7 +16,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Mobile Menu Toggle
+// Mobile Menu Toggle toggleMenu
 function toggleMenu(){
-    document.querySelector(".nav-links").classList.toggle("show");
+    let menu = document.querySelector(".nav-links");
+    menu.classList.toggle("show");
+    let nav = document.querySelector(".navbar nav");
+    nav.style.display = (nav.style.display === "block") ? "none" : "block";
 }
