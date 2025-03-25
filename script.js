@@ -28,11 +28,7 @@ function toggleMenu(){
 document.querySelectorAll(".nav-links a").forEach(link => {
     link.addEventListener("click", () => {
         if (window.innerWidth <= 768){
-            let menu = document.querySelector(".nav-links");
-            let nav = document.querySelector(".navbar nav");
-
-            menu.classList.remove("show");
-            nav.style.display = "none";
+            document.querySelector(".nav-links").classList.remove("show");
         }
     });
 });
