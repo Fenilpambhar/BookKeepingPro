@@ -117,6 +117,12 @@ body {
     gap: 20px;
 }
 
+.service-item {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+}
 /* Contact Section */
 .contact {
     background: #fff;
@@ -171,5 +177,11 @@ body {
     .service-grid {
         flex-direction: column;
         gap: 10px;
+    }
+    .service-item {
+        background: #f4f4f4;
+        padding: 20px;
+        border-radius: 10px;
+        width: 250px;
     }
 }
