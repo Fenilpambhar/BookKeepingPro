@@ -176,6 +176,7 @@ body {
     /* Stack Services Vertically */
     .service-grid {
         flex-direction: column;
+        justify-content: center;
         gap: 10px;
     }
     .service-item {
