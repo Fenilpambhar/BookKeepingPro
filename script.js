@@ -23,3 +23,14 @@ function toggleMenu(){
     let nav = document.querySelector(".navbar nav");
     nav.style.display = (nav.style.display === "block") ? "none" : "block";
 }
+
+// Close Menu on Link Click (New Fix)
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+        let menu = document.querySelector(".nav-links");
+        let nav = document.querySelector(".navbar nav");
+
+        menu.classList.remove("show");
+        nav.style.display = "none";
+    });
+});
