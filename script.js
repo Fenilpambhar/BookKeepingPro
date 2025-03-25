@@ -15,3 +15,8 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+// Mobile Menu Toggle
+function toggleMenu(){
+    document.querySelector(".nav-links").classList.toggle("show");
+}
