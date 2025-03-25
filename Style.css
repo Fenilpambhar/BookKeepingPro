@@ -37,7 +37,7 @@ body {
 
 /* Hamburger Menu (Mobile) */
 .menu-toggle {
-    display: block;
+    display: none;
     font-size: 28px;
     cursor: pointer;
     color: #333;
