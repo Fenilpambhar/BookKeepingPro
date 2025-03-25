@@ -41,7 +41,7 @@ body {
     font-size: 28px;
     cursor: pointer;
     color: #333;
-    padding-right: 50px;
+    padding-right: 80px;
 }
 
 /* Desktop Navigation */
@@ -184,6 +184,7 @@ body {
 
     .nav-links.show {
         display: flex;
+        align-items: center;
     }
 
     /* Stack Services Vertically */
