@@ -6,6 +6,13 @@ body {
     background: #F5F5F7;
     color: #705C53;
 }
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #4C3A32;
+    letter-spacing: 1px;
+}
 
 /* Loading Animation */
 .loading-screen {
