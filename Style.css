@@ -205,4 +205,31 @@ body {
         background: #F5F5F7;
         padding: 20px;
         border-radius: 10px;
-        width:
+        width: 20px
+
+  /* About Section */
+.about {
+    background: #F5F5F7;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #705C53;
+}
+
+.about p {
+    font-size: 1.2em;
+    color: #705C53;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Complete missing rule */
+.service-item {
+    width: 90%;
+    max-width: 400px;
+}
+
