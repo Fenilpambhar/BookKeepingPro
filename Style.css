@@ -6,13 +6,7 @@ body {
     background: #F5F5F7;
     color: #705C53;
 }
-.logo {
-    font-family: 'Playfair Display', serif;
-    font-size: 50px;
-    font-weight: 700;
-    color: #4C3A32;
-    letter-spacing: 1px;
-}
+
 
 /* Loading Animation */
 .loading-screen {
@@ -40,6 +34,12 @@ body {
     align-items: center;
     padding: 15px 30px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #4C3A32;
 }
 
 /* Hamburger Menu (Mobile) */
